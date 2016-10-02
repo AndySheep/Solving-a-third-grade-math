@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>求解一道小学三年级数学题</title>
+</head>
+<body>
+	<script>
+	/**
+	 *  小学语文我爱
+	 * x           4
+	 *_______________
+	 *  我爱小学语文
+	 *
+	 * 求解，小=？，学=？，语=？，文=？，我=？，爱=？
+	 */
+	 	//for循环语句
+		for (var a = 1; a < 10; a++) {
+			for (var b = 0; b < 10; b++) {
+				for (var c = 0; c < 10; c++) {
+					for (var d = 0; d < 10; d++) {
+						for (var e = 0; e < 10; e++) {
+							for (var f = 0; f < 10; f++) {
+								if((a*100000+b*10000+c*1000+d*100+e*10+f)*4==(e*100000+f*10000+a*1000+b*100+c*10+d)){
+									console.log(a,b,c,d,e,f);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	</script>
+</body>
+</html>
